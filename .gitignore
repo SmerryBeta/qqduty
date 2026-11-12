@@ -1,0 +1,34 @@
+__pycache__/
+*.pyc
+
+# 本机凭据
+data/local_secrets.json
+
+# 运维备忘和扫码脚本（含密码、内网地址）
+命令清单.md
+start-qr.sh
+
+# 聊天记录、记忆、反馈、日志
+data/bot_memory.md
+data/feedback.md
+data/feedback/
+data/bot_ops.json
+data/bot_sealed.json
+data/todos.json
+data/todos.json.tmp
+data/qoder_bridge.log
+data/sent_log.jsonl
+data/messages.jsonl
+data/nonebot.db
+data/replied_offset.txt
+data/bridge_task.txt
+data/thinking_*.txt
+
+# 截图、头像、二维码
+data/bridge_img*
+data/bridge_shot.jpg
+data/vm_qrcode.png
+data/test_img.jpg
+
+# 临时脚本、下载和测试
+tmp/

@@ -1,0 +1,19 @@
+{
+  "current": "xiaofeng",
+  "voices": {
+    "xiaofeng": {
+      "label": "小风（风麻麻素材）",
+      "gpt": "GPT_weights/XiaoFeng-e10.ckpt",
+      "sovits": "SoVITS_weights/XiaoFeng_e8_s392.pth",
+      "ref_wav": "logs/XiaoFeng/5-wav32k/vocal_风麻麻的声音素材y5a9rfsd.wav.reformatted.wav_10.flac_0000151680_0000346880.wav",
+      "prompt_text": "观众席，我们的观众已经迫不及待的想要看到比赛了。好的，现在我们来看第一轮。"
+    },
+    "beta": {
+      "label": "Beta（Beta配音素材）",
+      "gpt": "GPT_weights/xxx-e10.ckpt",
+      "sovits": "SoVITS_weights/xxx_e8_s400.pth",
+      "ref_wav": "logs/xxx/5-wav32k/vocal_Beta配音素材.mp3.reformatted.wav_10.wav_0000156160_0000340800.wav",
+      "prompt_text": "合适吗？要不然，我就把配音的工作交给AI吧。"
+    }
+  }
+}

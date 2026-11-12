@@ -1,0 +1,29 @@
+{
+  "recall": {
+    "enabled": true
+  },
+  "screenshot": {
+    "enabled": true
+  },
+  "search": {
+    "enabled": true
+  },
+  "voice": {
+    "enabled": true
+  },
+  "followup": {
+    "enabled": true,
+    "wait_sec": 5
+  },
+  "passive": {
+    "enabled": true,
+    "window_min": 10,
+    "threshold": 30,
+    "min_gap_min": 10
+  },
+  "forward": {
+    "enabled": true,
+    "max_images": 6
+  },
+  "groups": {}
+}
